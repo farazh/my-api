@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/users", (req, res) => {
-  console.log("request came...");
+  console.log("request came test...");
   res.json("works");
 });
 
